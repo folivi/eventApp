@@ -1,28 +1,17 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Isolate source from a project having issues with react_component
 
-Things you may want to cover:
+* How to run
 
-* Ruby version
+- bundle
+- rake db:migrate
+-rake db:seed
 
-* System dependencies
+* Issue
 
-* Configuration
+go to the app /
 
-* Database creation
+-click on the geolocation button. 
+The servers should respond with 10 events and the events list should be updated accordingly
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
