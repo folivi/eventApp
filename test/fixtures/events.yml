@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyString
+  eid: MyString
+  longitude: 1.5
+  latitude: 1.5
+  slug: MyString
+  country_code: MyString
+  start_time: 2015-11-26 18:42:29
+  end_time: 2015-11-26 18:42:29
+
+two:
+  name: MyString
+  description: MyString
+  eid: MyString
+  longitude: 1.5
+  latitude: 1.5
+  slug: MyString
+  country_code: MyString
+  start_time: 2015-11-26 18:42:29
+  end_time: 2015-11-26 18:42:29
