@@ -6,12 +6,12 @@ How to run
 
 - bundle
 - rake db:migrate
--rake db:seed
+- rake db:seed
 
  Issue
 
--go to the app /
+- go to the app /
 
--click on the geolocation button. 
-The servers should respond with 10 events and the events list should be updated accordingly
+- click on the geolocation button. 
+The servers should respond with 10 events and the events list is expected to be updated accordingly, but it doesn't. Plus, the browser's geolocation authorization prompt keeps showing (in Firefox)
 
