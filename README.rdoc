@@ -2,7 +2,7 @@
 
 Isolate source from a project having issues with react_component
 
-* How to run
+How to run
 
 - bundle
 - rake db:migrate
@@ -10,7 +10,7 @@ Isolate source from a project having issues with react_component
 
  Issue
 
-go to the app /
+-go to the app /
 
 -click on the geolocation button. 
 The servers should respond with 10 events and the events list should be updated accordingly
