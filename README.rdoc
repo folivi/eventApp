@@ -8,7 +8,7 @@ Isolate source from a project having issues with react_component
 - rake db:migrate
 -rake db:seed
 
-* Issue
+ Issue
 
 go to the app /
 
