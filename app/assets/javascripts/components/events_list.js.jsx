@@ -30,14 +30,13 @@ var EventsList = React.createClass({
     componentDidMount: function(){
         this.setState(
             {
-                events: this.props.events,
                 initialeEvents: this.props.events
 
             }
         )
     },
     render: function() {
-        console.log("called render eventlist with" + this.state.events.length)
+        console.log("called render eventlist with" + this.props.events.length)
         return(
             <div className='container'>
                 <div className='row'>
@@ -49,7 +48,7 @@ var EventsList = React.createClass({
                 <div className='row'>
                     <div className='container'>
             {
-                this.state.events.map(function(event){
+                this.props.events.map(function(event){
                     return(
                         <div className="col-lg-6" key={event.id}>
                             <div className="thumbnail style2 team-member event-thumbnail">
