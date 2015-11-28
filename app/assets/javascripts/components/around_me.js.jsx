@@ -9,21 +9,17 @@ var AroundMe = React.createClass({
     },
     componentDidMount: function(){
 
-        $.get('/dances.json', function(response){
-            this.setState(
-                {
-                    dances: response.dances
-                }
-            );
-        }.bind(this));
 
     },
     update_events: function(data){
-        this.setState({events: data});
+        this.setState({events: data}, function(){
+            console.log(this.state);
+        }.bind(this));
     },
 
     filter_by_geolocation: function(){
         var vm = this;
+
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(function(position){
                 vm.setState({user_coords: {longitude: position.coords.longitude, latitude: position.coords.latitude}}, function() {
